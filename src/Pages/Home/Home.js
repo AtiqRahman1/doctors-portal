@@ -1,9 +1,24 @@
 import React from 'react';
+import Banner from './Banner/Banner';
+import Contact from './Banner/Contact';
+import Exception from './Banner/Exception';
+import Footer from './Banner/Footer';
+import MakeAppointment from './Banner/MakeAppointment';
+import Testimonials from './Banner/Testimonials';
+import Info from './Info/Info';
+import Services from './Services';
 
 const Home = () => {
     return (
-        <div>
-            <h2>This is home</h2>
+        <div className='px-12'>
+            <Banner></Banner>
+            <Info></Info>
+            <Services></Services>
+            <Exception></Exception>
+            <MakeAppointment></MakeAppointment>
+            <Testimonials></Testimonials>
+            <Contact></Contact>
+            <Footer></Footer>
         </div>
     );
 };
