@@ -2,7 +2,7 @@ import React from 'react';
 import Banner from './Banner/Banner';
 import Contact from './Banner/Contact';
 import Exception from './Banner/Exception';
-import Footer from './Banner/Footer';
+import Footer from '../Shared/Footer';
 import MakeAppointment from './Banner/MakeAppointment';
 import Testimonials from './Banner/Testimonials';
 import Info from './Info/Info';
@@ -10,7 +10,7 @@ import Services from './Services';
 
 const Home = () => {
     return (
-        <div className='px-12'>
+        <div>
             <Banner></Banner>
             <Info></Info>
             <Services></Services>
